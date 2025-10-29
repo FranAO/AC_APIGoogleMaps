@@ -48,12 +48,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng familia5 = new LatLng(52.363093, 4.895092);
 
         myMap.moveCamera(CameraUpdateFactory.newLatLng(house));
-        myMap.moveCamera(CameraUpdateFactory.newLatLng(familia1));
-        myMap.moveCamera(CameraUpdateFactory.newLatLng(familia2));
-        myMap.moveCamera(CameraUpdateFactory.newLatLng(familia3));
-        myMap.moveCamera(CameraUpdateFactory.newLatLng(familia4));
-        myMap.moveCamera(CameraUpdateFactory.newLatLng(familia5));
-
 
         MarkerOptions options = new MarkerOptions().position(house).title("Familia Avaro Oliva");
         MarkerOptions options2 = new MarkerOptions().position(familia1).title("Familia Oliva Silva");
